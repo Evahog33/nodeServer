@@ -1,0 +1,26 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run server",
+    "server": "set NODE_ENV=development&& nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evahog33/nodeServer.git"
+  },
+  "author": "hoog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evahog33/nodeServer/issues"
+  },
+  "homepage": "https://github.com/Evahog33/nodeServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1"
+  }
+}
