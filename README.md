@@ -33,7 +33,7 @@ $ npm start
 
 ### 目录结构
 
-- api 定义接口
-- model 定义数据库
+- api 定义接口（接口都写在这个文件夹里）
+- model/model.js 定义数据库
 - public 提供静态文件
 - app.js 项目入口文件
